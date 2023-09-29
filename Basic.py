@@ -19,11 +19,11 @@ while True:
       
   screen.blit(background, (0,0)) ## blit means copy
 
-x,y = pygame.mouse.get_pos() ## create x y position
-x -= mouse_c.get_width()/2
-y -= mouse_c.get_height()/2
+  x,y = pygame.mouse.get_pos() ## create x y position
+  x -= mouse_c.get_width()/2
+  y -= mouse_c.get_height()/2
 
-screen.blit(mouse_c, (x,y))
+  screen.blit(mouse_c, (x,y))
 
-pygame.display.update() ## important
+  pygame.display.update() ## important
 
